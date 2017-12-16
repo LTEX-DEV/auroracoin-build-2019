@@ -1,17 +1,17 @@
 {
-  "name": "bitcore-build",
+  "name": "digibyte-build",
   "version": "0.9.0",
-  "description": "A helper for common tasks to build bitcore modules'",
+  "description": "A helper for common tasks to build digibyte modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/bitpay/bitcore-build"
+    "url": "git://github.com/digibyte/digibyte-build"
   },
   "keywords": [
-    "bitcore"
+    "digibyte"
   ],
   "contributors": [
     {
