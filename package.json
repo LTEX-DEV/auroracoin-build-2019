@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/digibyte/digibyte-build"
+    "url": "git://github.com/digicontributer/digibyte-build"
   },
   "keywords": [
     "digibyte"
@@ -33,13 +33,17 @@
     {
       "name": "Matias Alejo Garcia",
       "email": "ematiu@gmail.com"
+    },
+    {
+      "name": "Gary Mckee",
+      "email": "esot@digibyte.io"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bitpay/bitcore-build/issues"
+    "url": "https://github.com/digicontributer/digibyte-build/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcore-build",
+  "homepage": "https://github.com/bitpay/digibyte-build",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
