@@ -54,12 +54,12 @@ function startGulp(name, opts) {
 
   opts = opts || {};
   var browser = !opts.skipBrowser;
-  var fullname = name ? 'digibyte-' + name : 'digibyte';
+  var fullname = name ? 'auroracoin-' + name : 'auroracoin';
   var files = ['lib/**/*.js'];
   var tests = ['test/**/*.js'];
   var alljs = files.concat(tests);
 
-  var buildPath = './node_modules/digibyte-build/';
+  var buildPath = './node_modules/auroracoin-build/';
   var buildModulesPath = buildPath + 'node_modules/';
   var buildBinPath = buildPath + 'node_modules/.bin/';
 
@@ -129,9 +129,9 @@ function startGulp(name, opts) {
     var browserifyCommand;
 
     if (name !== 'lib') {
-      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external digibyte -o ' + fullname + '.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:' + fullname + ' --external auroracoin -o ' + fullname + '.js';
     } else {
-      browserifyCommand = browserifyPath + ' --require ./index.js:digibyte -o digibyte.js';
+      browserifyCommand = browserifyPath + ' --require ./index.js:auroracoin -o auroracoin.js';
     }
 
     gulp.task('browser:uncompressed', shell.task([
@@ -320,7 +320,7 @@ function startGulp(name, opts) {
   });
 
   gulp.task('release:push', function(cb) {
-    git.push('digibyte', 'master', {
+    git.push('auroracoin', 'master', {
       args: ''
     }, cb);
   });

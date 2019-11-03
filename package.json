@@ -1,17 +1,17 @@
 {
-  "name": "digibyte-build",
+  "name": "auroracoin-build",
   "version": "0.9.1",
-  "description": "A helper for common tasks to build digibyte modules'",
+  "description": "A helper for common tasks to build auroracoin modules'",
   "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/digicontributer/digibyte-build"
+    "url": "git://github.com/LTEX-DEV/auroracoin-build-2019.git"
   },
   "keywords": [
-    "digibyte"
+    "auroracoin"
   ],
   "contributors": [
     {
@@ -41,9 +41,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/digicontributer/digibyte-build/issues"
+    "url": "https://github.com/LTEX-DEV/auroracoin-build-2019/issues"
   },
-  "homepage": "https://github.com/bitpay/digibyte-build",
+  "homepage": "https://github.com/LTEX-DEV/auroracoin-build-2019",
   "dependencies": {
     "brfs": "^1.4.3",
     "browserify": "^13.1.1",
